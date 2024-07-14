@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Poppins";
+}
+
+.redish_color {
+    color: rgb(220, 41, 41);
+}
+
+.contact_us {
+    color: white;
+    font-size: small;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    position: relative;
+    margin: 20px 0;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: none;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-input:focus {
+    border-bottom: 2px solid #3f51b5;
+}
+
+.form-label {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+    top: -20px;
+    left: 5px;
+    font-size: 12px;
+    color: #3f51b5;
+}
+
+#check_box:checked {
+    background-color: rgb(231, 34, 99);
+    border: rgb(231, 34, 99);
+}
+
+#check_box:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.slider-container {
+    width: 90%;
+    overflow: hidden;
+    cursor: grab;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+    user-select: none;
+}
+
+.slide {
+    min-width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: rgb(235, 68, 68);
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12 {
+    display: none;
+    color: white;
+}
+
+.slide1:hover .card1,
+.slide2:hover .card2,
+.slide3:hover .card3,
+.slide4:hover .card4,
+.slide5:hover .card5,
+.slide6:hover .card6,
+.slide7:hover .card7,
+.slide8:hover .card8,
+.slide9:hover .card9,
+.slide10:hover .card10,
+.slide11:hover .card11,
+.slide12:hover .card12 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(251, 58, 58);
+}
+
+.slide1:hover .image_1,
+.slide2:hover .image_2,
+.slide3:hover .image_3,
+.slide4:hover .image_4,
+.slide5:hover .image_5,
+.slide6:hover .image_6,
+.slide7:hover .image_7,
+.slide8:hover .image_8,
+.slide9:hover .image_9,
+.slide10:hover .image_10,
+.slide11:hover .image_11,
+.slide12:hover .image_12 {
+    display: none;
+}
+
+.top-title{
+    height: 35px; 
+    background-color: rgb(248, 245, 245);
+}
+
+.award-winning{
+    color: rgb(235, 68, 68); 
+}
+
+.top-description{
+    font-size: small; 
+    font-weight: 700;
+}
+
+.top-button{
+    background-color: rgb(243, 53, 53); 
+    color: white; 
+    font-size: small;
+    padding-left: 18px; 
+    padding-right: 18px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
+.woman-image{
+    height: 90%; 
+    width: 80%;
+}
+
+.check-box-form{
+    font-weight: 500;
+}
+
+.contact-us-form{
+    width: 100%; 
+    color: white; 
+    background-color: rgb(231, 34, 99); 
+    padding-top: 8px; 
+    padding-bottom: 8px;
+}
+
+.what-we-do{
+    margin-top:210px;
+}
+
+.what-we-do-description{
+    font-size: small; 
+    font-weight: 700;
+}
+
+.what-we-do-icon{
+    height: 100px; 
+    width: 100px;
+}
